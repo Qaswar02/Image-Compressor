@@ -1,0 +1,12 @@
+#mainwindow{
+    background-color:gray;
+}
+#border{
+    background-color:#202020;
+    min-width: 500px;
+    min-height:250px;
+    max-width:500px;
+    max-height:250px;
+    border-radius:10px;
+
+}
