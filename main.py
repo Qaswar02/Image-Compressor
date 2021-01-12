@@ -3,9 +3,9 @@ import PIL
 from PIL import Image
 import os
 
-mywidth = 2000
-source_dir=""
-destination_dir =""
+mywidth = 3024
+source_dir = "/Users/Qaswar/Pictures/Test2 CHEM"
+destination_dir = "/Users/Qaswar/Desktop/testpics"
 
 def resize_pic(oldpic, newpic,mywidth):
     img = Image.open(oldpic)
@@ -23,3 +23,4 @@ def entire_directory(source_dir,dest_dir,width):
         new_pic = dest_dir + "/" + file
         resize_pic(old_pic,new_pic,width)
         print(i,"done")
+entire_directory(source_dir,destination_dir,mywidth)

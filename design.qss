@@ -3,10 +3,93 @@
 }
 #border{
     background-color:#202020;
-    min-width: 500px;
+    min-width: 300px;
     min-height:250px;
-    max-width:500px;
+    max-width:300px;
     max-height:250px;
     border-radius:10px;
 
+}
+#border_expanded
+{
+    background-color:#202020;
+    min-width: 450px;
+    min-height:400px;
+    max-width:450px;
+    max-height:400px;
+    border-radius:10px;
+}
+
+#Border_Heading
+{
+    color:white;
+    font-weight:bold;
+}
+
+#Border_Para
+{
+    font-size:15px;
+    color:white;
+
+}
+
+#back_arrow
+{
+    color:white;
+    font-weight:bold;
+    font-size:35px;
+    border-radius:5px;
+    margin-top:5px;
+}
+#back_arrow:hover
+{
+    background-color:white;
+    color:#202020;
+}
+
+#path_text
+{
+    max-width:250px;
+    max-height:25px;
+    min-height:25px;
+    min-width:250px;
+    color:#202020;
+}
+
+#quality_path_text
+{
+    max-width:150px;
+    min-width:150px;
+    max-height:25px;
+    min-height:25px;
+    color:#202020;
+}
+#browse_button
+{
+    max-width:35px;
+    min-width:35px;
+    color:#202020;
+}
+#compress_button
+{
+    background-color:#202020;
+    border:1px solid white;
+    padding:8px;
+    border-radius:8px;
+    color:white;
+
+
+}
+#compress_button:hover
+{
+    background-color:white;
+    color:#202020;
+}
+#quality_combo
+{
+    color:#202020;
+
+}
+#status {
+    color:white;
 }
